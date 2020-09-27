@@ -1,6 +1,6 @@
 using System;
 
-namespace design_pattern
+namespace design_pattern.Singleton
 {
     public sealed class Singleton
     {
