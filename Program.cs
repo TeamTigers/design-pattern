@@ -6,13 +6,8 @@ namespace design_pattern
     {
         private static void Main(string[] args)
         {
-            var pie = int.Parse(Console.ReadLine() ?? "3.14156");
-            PrintLn($"Value of pie is: {pie}");
-        }
-        
-        private static void PrintLn(object anyObject)
-        {
-            Console.WriteLine(anyObject);
+            var singleton1 = Singleton.GetSingleton;
+            var singleton2 = Singleton.GetSingleton;
         }
     }
 }
